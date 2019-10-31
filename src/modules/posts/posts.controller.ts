@@ -14,7 +14,7 @@ export class PostsController {
     @Get(':id')
     show(@Param() params) {
         return {
-            title: `posts ${params.id}`;
+            title: `posts ${params.id}`
         }
     }
     @Post()
